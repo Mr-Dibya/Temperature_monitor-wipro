@@ -1,0 +1,1 @@
+savedcmd_tempsensor.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /home/aditya/wsl-kernel/scripts/module.lds -o tempsensor.ko tempsensor.o tempsensor.mod.o .module-common.o
